@@ -32,3 +32,5 @@ tips:
   創建好資料夾也初始化後直接把檔案丟進裡面，不要丟進.git  
   接著要 git add 檔案名字  
   用git status 確認有無變更  
+2.  
+  每次在本地修改完後，得輸入 commit -a -m "做了什麼事" 後，才能push -u origin master  
