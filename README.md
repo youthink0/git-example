@@ -26,3 +26,9 @@ Note:
   指令為:  
     $ git config --global user.name "youthink0"  
     $ git config --global user.email [email protected]  
+
+tips:  
+1.  
+  創建好資料夾也初始化後直接把檔案丟進裡面，不要丟進.git  
+  接著要 git add 檔案名字  
+  用git status 確認有無變更  
