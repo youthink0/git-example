@@ -26,6 +26,8 @@ Note:
   指令為:  
     $ git config --global user.name "youthink0"  
     $ git config --global user.email [email protected]  
+3.  
+  日後要修改專案，雖然可以在github上直接修，但容易造成錯誤，建議把repo下載到local並修改完後，重新remote此資料夾並push(參照上述大致流程)  
 
 tips:  
 1.  
