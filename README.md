@@ -37,4 +37,4 @@ tips:
 2.  
   每次在本地修改完後，得輸入 commit -a -m "做了什麼事" 後，才能push -u origin master  
 3.  
-  如果push出現error: failed to push some refs to ...  代表線上版本更新，需要 git push --rebase後才能push  
+  如果push出現error: failed to push some refs to ...  代表線上版本更新，需要 git pu --rebase後才能push  
