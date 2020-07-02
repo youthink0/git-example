@@ -35,6 +35,9 @@ tips:
   接著要 git add 檔案名字  
   用git status 確認有無變更  
 2.  
-  每次在本地修改完後，得輸入 commit -a -m "做了什麼事" 後，才能push -u origin master  
+  每次在本地修改完後，得輸入git commit -a -m "做了什麼事" 後，才能git push origin master  
 3.  
-  如果push出現error: failed to push some refs to ...  代表線上版本更新，需要 git pu --rebase後才能push  
+  如果push出現error: failed to push some refs to ...  代表線上版本更新，需要 git pull --rebase後才能push  
+4.  
+  總流程複習 : git init -> git add 檔案名 -> git commit -a -m "message" -> git status確認狀態(非必要)  
+  ->  git remote add origin github網址 -> git pull --rebase origin master -> git push origin master  
