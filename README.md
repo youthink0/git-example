@@ -39,5 +39,7 @@ tips:
 3.  
   如果push出現error: failed to push some refs to ...  代表線上版本更新，需要 git pull --rebase後才能push  
 4.  
+  要移除檔案，請在local端輸入git rm -r 檔案名稱，接著push origin master即可  
+5.  
   總流程複習 : git init -> git add 檔案名 -> git commit -a -m "message" -> git status確認狀態(非必要)  
   ->  git remote add origin github網址 -> git pull --rebase origin master -> git push origin master  
