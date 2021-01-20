@@ -30,7 +30,8 @@ Note:
   日後要修改專案，雖然可以在github上直接修，但容易造成錯誤，建議把repo下載到local並修改完後，重新remote此資料夾並push(參照上述大致流程)  
 4.  
   要刪除folder的話參照以下網址 : https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository?fbclid=IwAR2Xj_fZ63jQ6GEsfyH5VsNok16UGAzWPbe2AAO2UJB7QsocqVZEiLfepKM  
-  
+5.  變更branch : git checkout <branch>  
+    刪除branch : git branch -d <branch>  
 
 tips:  
 1.  
