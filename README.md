@@ -28,12 +28,16 @@ Note:
     $ git config --global user.email [email protected]  
 3.  
   日後要修改專案，雖然可以在github上直接修，但容易造成錯誤，建議把repo下載到local並修改完後，重新remote此資料夾並push(參照上述大致流程)  
+4.  
+  要刪除folder的話參照以下網址 : https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository?fbclid=IwAR2Xj_fZ63jQ6GEsfyH5VsNok16UGAzWPbe2AAO2UJB7QsocqVZEiLfepKM  
+  
 
 tips:  
 1.  
   創建好資料夾也初始化後直接把檔案丟進裡面，不要丟進.git  
   接著要 git add 檔案名字  
   用git status 確認有無變更  
+  master為branch名字，可依劃分不同功能的branch更改  
 2.  
   每次在本地修改完後，得輸入git commit -a -m "做了什麼事" 後，才能git push origin master  
 3.  
@@ -41,5 +45,8 @@ tips:
 4.  
   要移除檔案，請在local端輸入git rm -r 檔案名稱，接著push origin master即可  
 5.  
-  總流程複習 : git init -> git add 檔案名 -> git commit -a -m "message" -> git status確認狀態(非必要)  
+  總流程複習(第一次把本地傳到空白遠端) : git init -> git add 檔案名(git add . :代表加入所有本次更新) -> git commit -a -m "message" -> git status確認狀態(非必要)  
+  ->  git remote add origin github網址 -> git push origin master  
+  
+  總流程複習(之後把本地傳到遠端) : git add 檔案名(git add . :代表加入所有本次更新) -> git commit -a -m "message" -> git status確認狀態(非必要)  
   ->  git remote add origin github網址 -> git pull --rebase origin master -> git push origin master  
